@@ -47,12 +47,10 @@ export function BillAddModal({ showModal, onClose }) {
   };
 
   const onDateDialogChange = (event, date) => {
+    setShowDate(false);
     switch (event.type) {
       case "set":
         setDate(DateTime.fromJSDate(date));
-      // falls through
-      default:
-        setShowDate(false);
     }
   };
 

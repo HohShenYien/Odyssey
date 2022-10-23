@@ -38,22 +38,20 @@ const AdminBillEdit = ({ navigation }) => {
     "This is the monthly management fees needed to be paid by all residents.\n\nAmount: RM 100.00";
 
   const onDateDialogChange = (event, date) => {
+    setShowDate(false);
+
     switch (event.type) {
       case "set":
         setDate(DateTime.fromJSDate(date));
-      // falls through
-      default:
-        setShowDate(false);
     }
   };
 
   const onTimeDialogChange = (event, time) => {
+    setShowTime(false);
+
     switch (event.type) {
       case "set":
         setTime(DateTime.fromJSDate(time));
-      // falls through
-      default:
-        setShowTime(false);
     }
   };
 

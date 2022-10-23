@@ -40,12 +40,11 @@ export function VisitorModal({ showModal, onClose, onSubmitPress = () => {} }) {
   };
 
   const onDateDialogChange = (event, date) => {
+    setShowDate(false);
+
     switch (event.type) {
       case "set":
         setDate(DateTime.fromJSDate(date));
-      // falls through
-      default:
-        setShowDate(false);
     }
   };
 
