@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "192695002597",
+    "project_id": "kommunity-95e10",
+    "storage_bucket": "kommunity-95e10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192695002597:android:f88da71758a007a0de7b0c",
+        "android_client_info": {
+          "package_name": "com.kommunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192695002597-jk9um0479ohbn5c0jrgj7rfn3jaguiu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCR9NGoH0-pdZyeu6mLsX4kms4BItjJm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192695002597-jk9um0479ohbn5c0jrgj7rfn3jaguiu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

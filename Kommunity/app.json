@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Kommunity",
+    "slug": "Kommunity",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.kommunity",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": ["@config-plugins/android-jsc-intl"],
+    "extra": {
+      "eas": {
+        "projectId": "5ee8a731-0428-4e45-9abd-b964b2a1800a"
+      }
+    }
+  }
+}
