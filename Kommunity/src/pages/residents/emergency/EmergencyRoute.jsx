@@ -24,7 +24,7 @@ const routes = {
 
 export default function EmergencyRoute() {
   return (
-    <Stack.Navigator initialRouteName={routeNames.emergencyCancel}>
+    <Stack.Navigator initialRouteName={routeNames.emergencyButton}>
       {Object.values(routes).map((route) => (
         <Stack.Screen
           name={route.name}

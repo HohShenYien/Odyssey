@@ -24,7 +24,11 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.kommunity",
-      "googleServicesFile": "./google-services.json"
+      "googleServicesFile": "./google-services.json",
+      "androidStatusBar": {
+        "backgroundColor": "#1C67CB",
+        "translucent": false
+      }
     },
     "web": {
       "favicon": "./assets/icon.png"
